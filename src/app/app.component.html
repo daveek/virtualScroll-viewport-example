@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<button (click)="click()">click</button>
+<div class="container"    >
+    <cdk-virtual-scroll-viewport itemSize="4" class='example-viewport'>
+    
+        <li *cdkVirtualFor="let item of searchResults" class='example-item' >{{item}}</li>
+    
+    </cdk-virtual-scroll-viewport>
+</div>
